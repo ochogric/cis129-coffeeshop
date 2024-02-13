@@ -1,3 +1,5 @@
+# Author: Ricardo Ochoa
+# My Second Python lab in my CIS129 course
 Ricardos Coffee and Muffin Shop
 Number of coffees bought?
 105
