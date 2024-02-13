@@ -1,15 +1,21 @@
 Ricardos Coffee and Muffin Shop
 Number of coffees bought?
-55
+105
 Number of muffins bought?
-24
+44
+Number of sandwiches bought?
+31
+Number of smoothies bought?
+66
 ***************************************
 
 ***************************************
 Ricardos Coffee and Muffin Shop Receipt
-55 Coffee at $5 each: $ 275.00
-24 Muffins at $4 each: $ 96.00
-6% tax: $ .78
+105 Coffee at $5 each: $ 525.00
+44 Muffins at $4 each: $ 176.00
+31 Sandwiches at $6 each: $ 186.00 
+66 Smoothies at $5 each: $ 330.00
+6% tax: $ 73.02
 ---------
-Total: $ 371.78
+Total: $ 1290.02
 ***************************************
