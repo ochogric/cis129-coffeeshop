@@ -1,23 +1,30 @@
-# Author: Ricardo Ochoa
-# My Second Python lab in my CIS129 course
-Ricardos Coffee and Muffin Shop
-Number of coffees bought?
-105
-Number of muffins bought?
-44
-Number of sandwiches bought?
-31
-Number of smoothies bought?
-66
-***************************************
 
-***************************************
-Ricardos Coffee and Muffin Shop Receipt
-105 Coffee at $5 each: $ 525.00
-44 Muffins at $4 each: $ 176.00
-31 Sandwiches at $6 each: $ 186.00 
-66 Smoothies at $5 each: $ 330.00
-6% tax: $ 73.02
----------
-Total: $ 1290.02
-***************************************
+# Ricardo Ochoa, 21339 CIS129 
+
+#This section shows the how much coffe cost
+
+num_coffees = int(input("105 "))
+
+coffee_price = 5
+
+subtotal = (num_coffees * coffee_price)
+
+tax_rate = 0.06
+
+tax_amount = subtotal * tax_rate
+
+total = subtotal + tax_amount
+
+# This section is a printed receipt
+
+print("=== Receipt ===")
+
+print(f"105 {num_coffees}")
+
+#...
+
+print(f"Subtotal: ${subtotal:.2f}")
+
+print(f"Tax (6%): ${tax_amount:.2f}")
+
+print(f"Total: ${total:.2f}")
